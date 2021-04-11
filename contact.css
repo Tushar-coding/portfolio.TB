@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+     }
+    
+    ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    
+    
+    }
+    ul li{
+    position: relative;
+    background: white;
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+    border: 3px solid;
+    border-radius: 50%;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+    
+    }
+    ul li .fab{
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    ul li:nth-child(2){
+    border-color: #38A1F3 ;
+    
+    }
+    ul li:nth-child(2) .fab{
+        color: #38A1F3 ;
+        
+        }
+        ul li:nth-child(1){
+            border-color: #0965ab ;
+            
+            }
+            ul li:nth-child(1) .fab{
+                color: #0965ab ;
+                
+                }   
+                ul li:nth-child(3){
+                    border-color:#0077BF ;
+                    
+                    }
+                    ul li:nth-child(3) .fab{
+                        color: #0077BF ;
+                        
+                        } 
+                        
+                        
+                        ul li:nth-child(4){
+                            border-color:#d72888 ;
+                            
+                            }
+                            ul li:nth-child(4) .fab{
+                                color: #d72888 ;
+                                
+                            }
+
+.facebook{
+
+border-top: 50%;
+border-left: 50%;
+
+
+}
+.first{
+width: 210px;
+position: relative;
+left: 45%;
+top: 25%;
+color:antiquewhite;
+
+}
+p{
+color: antiquewhite;
+position: relative;
+left: 3%;
+top: 5%;
+}
+
+
+.second{
+
+position: relative;
+left: 7% ;
+top: 40%;
+width: 500px;
+color: antiquewhite;
+}
+.p
+{
+position: relative;
+top: 5%;
+margin-top: 2%;
+color: antiquewhite;
+
+}
+
+.three{
+position: relative;
+left: 7% ;
+top: 60%;
+width: 500px;
+color: antiquewhite;
+}
+.icons{
+
+position: relative;
+top: 55%;
+left: 8%;
+
+
+}
+h2{
+position: relative;
+left: 3%;
+color: antiquewhite;
+
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+    width: 30%;
+    padding-left: 70%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:#f33756;
+    color: white;
+  }
+.first
+{
+
+color: darksalmon;
+height: 100px;
+width: 300px;
+
+
+}
+
+.icons{
+
+
+  color: antiquewhite;
+}
+.info{
+
+margin-left: 20px;
+margin-bottom: 10px;
+
+}
+.i{
+margin-top: 10px;
+}
+.column-right{
+width: 170px;
+  position: relative;
+top: 20%;
+left: 60%;
+
+}
+.text
+{
+color: #f33756;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+  color: #f33756;
+}
+p{
+  color: #f33756;
+}
+.second{
+
+
+  color: #f33756;
+  
+}
+u{
+  color:#f33756 ;
+}
+.text{
+
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.field-name{
+color: crimson;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head{
+
+font-size:20px;
+}
+.head1{
+
+  font-size:20px;
+  }
+.head2{
+
+  font-size:20px;
+  }
+  body{
+background-image:url(https://images.unsplash.com/photo-1509185402190-f3e3de0edf71?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1033&q=80) ;
+background-repeat:no-repeat ;
+background-size: cover;
+  }
+  @media(max-width:998px){
+
+    html{
+  
+      font-size: 55%;
+    }
+  }
+  @media(max-width:768px){
+  html{
+  
+    font-size: 75%;
+  }
+  
+  }
+  @media(max-width:758px){
+  body{
+  
+    font-size: 75%;
+  }
+  
+  }
+  .Submitbutton{
+
+
+    background:crimson
+  }
